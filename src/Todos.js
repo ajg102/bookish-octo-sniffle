@@ -24,7 +24,7 @@ export default function Todos() {
         return (
           <li className="list-item">
             <button onClick={() => toggleTodoCompletion(todo.id)}>
-              {todo}
+              Not Completed
             </button>
             <p>{todo}</p>
             <button onClick={() => deleteTodo(todo)}>Delete</button>
